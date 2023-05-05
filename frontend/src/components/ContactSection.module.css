@@ -1,0 +1,49 @@
+.contactSection {
+  background-color: var(--color-primary-600);
+  align-items: flex-start;
+  color: var(--color-white);
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 6rem;
+  height: 130vh;
+}
+.formSection {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.select {
+  color: var(--color-black);
+  font-weight: 600;
+}
+.select > option {
+  background-color: var(--colour-black);
+  width: 50%;
+}
+@media screen and (max-width: 1000px) {
+  .formSection {
+    width: 90%;
+  }
+  .formContainer {
+    height: 100vh;
+  }
+}
+
+@media screen and (max-height: 800px) {
+  .formContainer {
+    height: 62rem;
+  }
+}
