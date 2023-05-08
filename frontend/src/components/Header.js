@@ -13,7 +13,7 @@ import classes from "./Header.module.css";
 const socials = [
   {
     icon: faEnvelope,
-    url: "mailto: hello@example.com",
+    url: "mailto: chiedozie013@yahoo.com",
   },
   {
     icon: faGithub,
