@@ -34,11 +34,6 @@ export default function ContactSection() {
   //   getContactInfos();
   // }, []);
 
-  // const [firstName, setFirstName] = useState("");
-  // const [email, setEmail] = useState("");
-  // const [enquiry, setEnquiry] = useState("");
-  // const [comment, setComment] = useState("");
-
   const AddContactInfo = async () => {
     let formField = new FormData();
 
